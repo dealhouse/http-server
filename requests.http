@@ -1,0 +1,51 @@
+# GET http://localhost:8080/app
+
+# GET http://localhost:8080/app/assets/
+
+# GET http://localhost:8080/api/healthz
+
+# GET http://localhost:8080/admin/metrics
+
+POST http://localhost:8080/admin/reset 
+content-type: application/json
+
+# {
+#     "name": "sample",
+#     "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+# }
+
+# POST http://localhost:8080/api/validate_chirp
+# content-type: application/json
+
+# {
+#     "body": "This is an opinion I need to share with the world"
+# }
+
+# POST http://localhost:8080/api/validate_chirp
+# content-type: application/json
+
+# {
+#     "body": "Shouldnt be here Shouldnt be here Shouldnt be here Shouldnt be here Shouldnt be here Shouldnt be here Shouldnt be here Shouldnt be here Shouldnt be here"
+# }
+
+# POST http://localhost:8080/api/validate_chirp
+# content-type: application/json
+
+# {
+#     "body": "This is a kerfuffle opinion I need to share with the world"
+# }
+
+# POST http://localhost:8080/api/validate_chirp
+# content-type: application/json
+
+# {
+#     "body": "Sharbert! This is a kerfuffle opinion I need to share with the world"
+# }
+
+# POST http://localhost:8080/api/users
+# content-type: application/json
+
+# {
+#     "email": "user@example.com"
+# }
+
